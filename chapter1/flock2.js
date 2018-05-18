@@ -1,12 +1,9 @@
-const conjoin = (flockX, flockY) => flockX + flockY;
-const breed = (flockX, flockY) => flockX * flockY;
+const add = (flockX, flockY) => flockX + flockY;
+const multiply = (flockX, flockY) => flockX * flockY;
 
 const flockA = 4;
 const flockB = 2;
 const flockC = 0;
-const result = conjoin(
-    breed(flockB, conjoin(flockA, flockC)), // 8
-    breed(flockA, flockB) //
-)
+const result = multiply(flockB, add(flockA, flockA))
 
-console.log(result)
+console.log(result == 16)
