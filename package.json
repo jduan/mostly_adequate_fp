@@ -1,0 +1,14 @@
+{
+  "name": "mostly_adequate",
+  "version": "0.0.0",
+  "description": "FP",
+  "main": "lib/message_proxy.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "dependencies": {
+    "immutable": "3.8.2"
+  },
+  "devDependencies": {}
+}
